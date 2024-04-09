@@ -8,7 +8,7 @@ mplayer must be installed
 
 ## Installation
 
-Run code --install-extension Dpschu2.matrix-keyboard-sounds
+Run code --install-extension deans4.matrix-keyboard-sounds
 or search Matrix Keyboard Sounds in the Marketplace.
 
 ## Extension Settings
