@@ -3,6 +3,7 @@
   "publisher": "deans4",
   "displayName": "Matrix Keyboard Sounds",
   "description": "Matrix keyboard sound effects",
+  "icon": "icon.png",
   "version": "1.0.0",
   "engines": {
     "vscode": "^1.87.0"
