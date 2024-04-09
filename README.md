@@ -13,8 +13,8 @@ or search Matrix Keyboard Sounds in the Marketplace.
 
 ## Extension Settings
 
-* `matrix_keyboard_sounds.enable`: Enable this extension.
-* `matrix_keyboard_sounds.disable`: Disable this extension.
+* `matrix_keyboard_sounds.activate`: Enable this extension.
+* `matrix_keyboard_sounds.deactivate`: Disable this extension.
 
 ## Contribution
 

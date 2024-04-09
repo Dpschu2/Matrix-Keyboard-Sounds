@@ -13,7 +13,7 @@ export function activate(context: vscode.ExtensionContext) {
     listener = listener || new EditorListener(player);
     isActive = context.globalState.get("matrix_keyboard_sounds", true);
 
-    vscode.commands.registerCommand('matrix_keyboard_sounds.enable', () => {
+    vscode.commands.registerCommand('matrix_keyboard_sounds.activate', () => {
         if (!isActive) {
             context.globalState.update("matrix_keyboard_sounds", true);
             isActive = true;
@@ -22,7 +22,7 @@ export function activate(context: vscode.ExtensionContext) {
             vscode.window.showWarningMessage("Extension already enabled");
         }
     });
-    vscode.commands.registerCommand('matrix_keyboard_sounds.disabled', () => {
+    vscode.commands.registerCommand('matrix_keyboard_sounds.deactivate', () => {
         if (isActive) {
             context.globalState.update("matrix_keyboard_sounds", false);
             isActive = false;

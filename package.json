@@ -4,7 +4,7 @@
   "displayName": "Matrix Keyboard Sounds",
   "description": "Matrix keyboard sound effects",
   "icon": "icon.png",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "engines": {
     "vscode": "^1.87.0"
   },
@@ -32,11 +32,11 @@
     "commands": [
       {
         "command": "matrix-keyboard-sounds.activate",
-        "title": "Matrix Keyboard Sounds: Activate"
+        "title": "Matrix Keyboard Sounds: Enable"
       },
       {
         "command": "matrix-keyboard-sounds.deactivate",
-        "title": "Matrix Keyboard Sounds: Deactivate"
+        "title": "Matrix Keyboard Sounds: Disable"
       }
     ]
   },
