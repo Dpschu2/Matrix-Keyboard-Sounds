@@ -1,0 +1,23 @@
+{
+    "version": "1.0.0",
+    "command": "npm",
+    "args": ["run", "compile", "--loglevel", "silent"],
+    "isWatching": true,
+    "problemMatcher": "$tsc-watch",
+    "tasks": [
+        {
+            "label": "npm",
+            "command": "npm",
+            "type": "shell",
+            "args": [
+                "run",
+                "compile",
+                "--loglevel",
+                "silent"
+            ],
+            "problemMatcher": "$tsc-watch",
+            "isBackground": true,
+            "group": "build"
+        }
+    ]
+}

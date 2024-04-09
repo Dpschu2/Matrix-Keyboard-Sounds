@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "matrix-keyboard-sounds",
+			"path": "."
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	}
+}

@@ -1,0 +1,64 @@
+{
+  "name": "matrix-keyboard-sounds",
+  "displayName": "Matrix Keyboard Sounds",
+  "description": "Matrix keyboard sound effects",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "keywords": [
+    "typewriter",
+    "sound",
+    "matrix",
+    "typing",
+    "keyboard"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Dpschu2/Matrix-Keyboard-Sounds",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dpschu2/Matrix-Keyboard-Sounds.git"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/src/extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "matrix-keyboard-sounds.activate",
+        "title": "Matrix Keyboard Sounds: Activate"
+      },
+      {
+        "command": "matrix-keyboard-sounds.deactivate",
+        "title": "Matrix Keyboard Sounds: Deactivate"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.87.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9"
+  },
+  "dependencies": {
+    "@types/watch": "^1.0.1",
+    "path": "^0.12.7"
+  }
+}

@@ -1,0 +1,6 @@
+{
+	"recommendations": [
+        "ms-vscode.extension-test-runner",
+		"dbaeumer.vscode-eslint"
+	]
+}

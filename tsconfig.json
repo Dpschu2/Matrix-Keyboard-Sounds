@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "ES5",
+		"outDir": "out",
+		"sourceMap": true,
+		"rootDir": ".",
+		"strict": false
+	},
+	"exclude": [
+        "node_modules",
+        ".vscode-test"
+    ]
+}
