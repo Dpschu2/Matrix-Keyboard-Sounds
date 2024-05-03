@@ -2,6 +2,8 @@
 
 This is VSCode Extension that adds futuristic keypress sounds.
 
+![Enter the Matrix Screenshot](matrix.jpeg)
+
 ## Requirements
 
 mplayer must be installed
